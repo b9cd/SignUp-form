@@ -1,6 +1,6 @@
 package com.SignUp;
 import java.util.Scanner;
-import java.math.BigInteger;
+
 
 public class SignUp {
     public static void main(String[] args){
@@ -50,7 +50,7 @@ public class SignUp {
 
         if ( email.equals(emailS) && password.equals(passwordS)){
             System.out.println("You are welcome " + name + "!!");
-        }else if (!(email.equals(emailS)) || !(password.equals(passwordS))) {
+        }else {
             System.out.println("password or email is wrong :(");
         }
 
